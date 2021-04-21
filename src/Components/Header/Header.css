@@ -1,0 +1,46 @@
+.header {
+  background: url('../../img/header-bg.jpg') 0 0 / cover, no-repeat;
+  min-height: 89vh;
+  background-position: center;
+}
+.header__content {
+  margin: 0 auto;
+  text-align: center;
+  padding: 250px 0 50px;
+}
+.header__title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 59px;
+  text-align: center;
+  letter-spacing: 0.035em;
+  color: #FFFFFF;
+}
+.header__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0 30px;
+}
+.header__input {
+  width: 270px;
+  padding: 8px;
+  margin: 15px 0;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.205em;
+  color: #FFFFFF;
+  outline: none;
+  border: 1px solid #fff;
+}
+.header__input::placeholder {
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 100;
+  text-align: center;
+}

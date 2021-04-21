@@ -1,0 +1,65 @@
+.footer {
+  background: url('../../img/footer-bg.png') 0 0 / cover, no-repeat;
+  background-position: center;
+  min-height: 15vh;
+}
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+}
+.footer__logo {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: 0.205em;
+  color: #FFFFFF;
+  cursor: pointer;
+  margin-top: -10px;
+}
+.footer__social {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer__social__link {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.205em;
+  color: #FFFFFF;
+  padding: 0 20px;
+}
+.footer__address__number {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.205em;
+  color: #FFFFFF;
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+.footer__bottom {
+  background: #000000;
+}
+.footer__bottom__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.13em;
+  color: #ffffffb0;
+  text-decoration: none;
+}
