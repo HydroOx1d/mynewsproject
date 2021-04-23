@@ -1,5 +1,6 @@
 import { Route, Switch } from 'react-router-dom';
 import './App.css';
+import Add from './Components/Add/Add';
 import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/Header';
 import ModalSignUp from './Components/ModalSignUp/ModalSignUp'
@@ -15,6 +16,7 @@ function App() {
           <Route exact path="/" component={Header}/>
           <Route path="/signup" component={ModalSignUp}/>
           <Route path="/news" component={News}/>
+          <Route path="/add" component={Add}/>
         </Switch>
       </div>
       <Footer/>

@@ -11,7 +11,7 @@ function Navigation() {
           <nav className="nav top__nav">
             <NavLink exact to="/" className="top__nav__link">Главная</NavLink>
             <NavLink to="/news" className="top__nav__link">Новости</NavLink>
-            <NavLink to="/" className="top__nav__link">Добавить</NavLink>
+            <NavLink to="/add" className="top__nav__link">Добавить</NavLink>
           </nav>
           <NavLink to="/signup" className="top__btn btn">Регистрация</NavLink>
         </div>

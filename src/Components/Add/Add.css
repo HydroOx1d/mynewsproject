@@ -1,0 +1,53 @@
+.Add {
+  background-color: #0a0a0a;
+  padding: 50px 0;
+}
+
+.add__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.add__input {
+  width: 870px;
+  display: block;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #fff;
+  background-color: transparent;
+  resize: none;
+  color: #fff;
+  margin-top: 30px;
+  outline: none;
+  padding: 25px 20px;
+  font-size: 18px;
+}
+
+.add__input::placeholder {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+}
+
+.example-1 .form-group {
+  padding: 1em;
+  margin: 1em;
+}
+.example-1 input[type="file"] {
+  outline: 0;
+  opacity: 0;
+  pointer-events: none;
+  user-select: none;
+}
+.example-1 .label {
+  width: 910px;
+  display: block;
+  transition: border 300ms ease;
+  cursor: pointer;
+  background-color: #fff;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
