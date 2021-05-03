@@ -1,6 +1,7 @@
 import React from 'react';
 import './Add.css'
 import Plus from '../../img/plus.jpg'
+import Slider from './Slider/Slider';
 
 function Add() { 
 
@@ -23,6 +24,8 @@ function Add() {
                             <input type="number" className="add__input input__text" placeholder="Номер телефона (необязательно)"/>
                             <input type="email" className="add__input input__text" placeholder="Добавьте почту (необяззательно)"/>
                         </form>
+                        <Slider/>
+                        <button className="btn add-btn">Добавить</button>
                     </div>
                 </div>
             </div>
